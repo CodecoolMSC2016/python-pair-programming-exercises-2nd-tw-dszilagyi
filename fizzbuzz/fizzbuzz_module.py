@@ -1,9 +1,17 @@
 def fizzbuzz(number):
-    return
+    if number % 3 == 0 and number % 5 == 0:
+        return "FizzBuzz"
+    elif number % 3 == 0:
+        return "Fizz"
+    elif number % 5 == 0:
+        return "Buzz"
+    else:
+        return number
 
 
 def main():
-    return
+    for number in range(100):
+        print(number + 1)
 
 if __name__ == '__main__':
     main()
